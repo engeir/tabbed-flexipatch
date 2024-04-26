@@ -1,4 +1,4 @@
-static Bool basenametitles = False;
+static Bool basenametitles = True;
 
 char *
 getbasename(const char *name)

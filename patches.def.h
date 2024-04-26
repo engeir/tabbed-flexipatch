@@ -14,7 +14,7 @@
  * when including this patch.
  * https://tools.suckless.org/tabbed/patches/alpha/
  */
-#define ALPHA_PATCH 0
+#define ALPHA_PATCH 1
 
 /* This patch hides the tab bar if only one tab is open.
  * https://tools.suckless.org/tabbed/patches/autohide/
@@ -24,7 +24,7 @@
 /* Named after the window title bar patch for dwm this patch divides the
  * tab bar space evenly between the tabbed windows.
  */
-#define AWESOMEBAR_PATCH 0
+#define AWESOMEBAR_PATCH 1
 
 /* This patch allows the height of the bar to be manually specified.
  * https://tools.suckless.org/tabbed/patches/bar-height/
@@ -34,7 +34,7 @@
 /* Only show the basename of the tabbed title; useful with zathura. Toggle with -b.
  * https://tools.suckless.org/tabbed/patches/basenames/
  */
-#define BASENAME_PATCH 0
+#define BASENAME_PATCH 1
 
 /* This patch moves the tabs / bar to the bottom of the tabbed window.
  * https://github.com/bakkeby/patches/blob/master/tabbed/tabbed-bottomtabs-0.6-20200512-dabf6a2.diff
@@ -45,12 +45,12 @@
  * https://www.reddit.com/r/suckless/comments/oi4zjl/tabbed_text_alignment/
  * https://github.com/bakkeby/patches/blob/master/tabbed/tabbed-center-0.6-20200512-dabf6a2.diff
  */
-#define CENTER_PATCH 0
+#define CENTER_PATCH 1
 
 /* This patch prints the position number of the client before the window title.
  * https://tools.suckless.org/tabbed/patches/clientnumber/
  */
-#define CLIENTNUMBER_PATCH 0
+#define CLIENTNUMBER_PATCH 1
 
 /* Adds support for dragging tabs left and right using the mouse.
  * https://tools.suckless.org/tabbed/patches/drag/
@@ -73,13 +73,13 @@
  *
  * https://tools.suckless.org/tabbed/patches/icon/
  */
-#define ICON_PATCH 0
+#define ICON_PATCH 1
 
 /* With this patch, handling key input is done with keycodes instead of keysyms making
  * the keyboard layout independent.
  * https://tools.suckless.org/tabbed/patches/keycode/
  */
-#define KEYCODE_PATCH 0
+#define KEYCODE_PATCH 1
 
 /* This patch enables for function handling on KeyRelease events.
  * For example usage see: hidetabs
@@ -90,12 +90,12 @@
 /* Add a decorative separator bar to the beginning of each tab.
  * https://tools.suckless.org/tabbed/patches/separator/
  */
-#define SEPARATOR_PATCH 0
+#define SEPARATOR_PATCH 1
 
 /* This patch allows tabbed colors to be defined via Xresources.
  * https://tools.suckless.org/tabbed/patches/xresources/
  */
-#define XRESOURCES_PATCH 0
+#define XRESOURCES_PATCH 1
 
 /* Expansion of the resources patch above, allows resources to be reloaded during
  * runtime by using a USR1 kill signal.
@@ -105,4 +105,4 @@
  *
  * https://tools.suckless.org/tabbed/patches/xresources-with-reload-signal/
  */
-#define XRESOURCES_RELOAD_PATCH 0
+#define XRESOURCES_RELOAD_PATCH 1

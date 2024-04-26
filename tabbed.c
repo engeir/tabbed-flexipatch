@@ -1613,7 +1613,7 @@ main(int argc, char *argv[])
 		break;
 	#if BASENAME_PATCH
 	case 'b':
-		basenametitles = True;
+		basenametitles = False;
 		break;
 	#endif // BASENAME_PATCH
 	case 'v':
