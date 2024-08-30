@@ -27,7 +27,7 @@ static int barheight = 0;  /* 0 means derive by font (default), otherwise absolu
  * then the current position is changed + newposition. If npisrelative
  * is 0, then newposition is an absolute position.
  */
-static int newposition  = 0;
+static int newposition  = -1;
 static int npisrelative = 0;
 
 #define SETPROP(p) { \
